@@ -118,7 +118,6 @@
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Path Template.vit" Type="VI" URL="../AutonBuilder/SubVI/Path Template.vit"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
