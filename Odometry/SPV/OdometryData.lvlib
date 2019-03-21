@@ -15,6 +15,20 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Odometry.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Typedef/Odometry.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^/1%!!"A!A!!!!!!,!!&gt;!#A!"?!!(1!I!!8E!#U!+!!6U;'6U91!81!E!%%RF:H1A27ZD&lt;W2F=C"398=!!"&gt;!#1!25GFH;(1A27ZD&lt;W2F=C"398=!&amp;U!*!"&amp;-:7:U)&amp;:F&lt;'^D;82Z)&amp;*B&gt;Q!:1!E!%F*J:WBU)&amp;:F&lt;'^D;82Z)&amp;*B&gt;Q!!%U!+!!R-:7:U)%6O9W^E:8)!!".!#A!.5GFH;(1A27ZD&lt;W2F=A!61!)!$URB&gt;'5A382F=G&amp;U;7^O=Q!^!0%!!!!!!!!!!1R0:'^N:82S?3ZD&gt;'Q!+%"1!!I!!!!"!!)!!Q!%!!5!"A!(!!A!#1B0:'^N:82S?1!!!1!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$(QQ!!!"A!A!!!!!!(!!&gt;!#A!"?!!(1!I!!8E!#U!+!!6U;'6U91!41!I!$%RF:H1A27ZD&lt;W2F=A!!%U!+!!V3;7&gt;I&gt;#"&amp;&lt;G.P:'6S!"6!!A!04'&amp;U:3"*&gt;'6S982J&lt;WZT!$5!]1!!!!!!!!!"$%^E&lt;WVF&gt;(*Z,G.U&lt;!!A1&amp;!!"A!!!!%!!A!$!!1!"1B0:'^N:82S?1!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Velocity" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Velocity Data.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Typedef/Velocity Data.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"_?A!!!"A!A!!!!!!$!"F!#1!35GFH;(1A6G6M&lt;W.J&gt;(EA5G&amp;X!!!81!E!%5RF:H1A6G6M&lt;W.J&gt;(EA5G&amp;X!$)!]1!!!!!!!!!"%6:F&lt;'^D;82Z)%2B&gt;'%O9X2M!"B!5!!#!!!!!1B7:7RP9WFU?1!!!1!#!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
