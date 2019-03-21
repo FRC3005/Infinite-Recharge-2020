@@ -828,9 +828,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_CAN_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_GetStatus.vi"/>
 				<Item Name="WPI_CAN_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/WPI_CAN_GetStatus.vi"/>
 				<Item Name="Spark MAX Set Ramp Rate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Set Ramp Rate.vi"/>
-				<Item Name="Spark MAX Clear Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Clear Faults.vi"/>
-				<Item Name="Spark MAX Get Parameter Raw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Private/Spark MAX Get Parameter Raw.vi"/>
-				<Item Name="Spark MAX Get Cached Parameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Private/Spark MAX Get Cached Parameter.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -859,6 +856,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Active Command.vi" Type="VI" URL="../Auton/Command Parser/Active Command.vi"/>
 			<Item Name="Get Auton Files.vi" Type="VI" URL="../Auton/Command Parser/SubVI/Get Auton Files.vi"/>
 			<Item Name="Load Auton by Name.vi" Type="VI" URL="../Auton/Command Parser/SubVI/Load Auton by Name.vi"/>
+			<Item Name="Spark MAX Variant Data.ctl" Type="VI" URL="../../../Desktop/SPARK MAX LabVIEW/Typedef/Spark MAX Variant Data.ctl"/>
+			<Item Name="Spark MAX CAN API Mask.ctl" Type="VI" URL="../../../Desktop/SPARK MAX LabVIEW/Typedef/Spark MAX CAN API Mask.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
