@@ -117,6 +117,7 @@
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
@@ -864,6 +865,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Active Command.vi" Type="VI" URL="../Auton/Command Parser/Active Command.vi"/>
 			<Item Name="Get Auton Files.vi" Type="VI" URL="../Auton/Command Parser/SubVI/Get Auton Files.vi"/>
 			<Item Name="Load Auton by Name.vi" Type="VI" URL="../Auton/Command Parser/SubVI/Load Auton by Name.vi"/>
+			<Item Name="New Path Template.vit" Type="VI" URL="../AutonBuilder/SubVI/New Path Template.vit"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
