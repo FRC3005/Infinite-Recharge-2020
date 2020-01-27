@@ -1,8 +1,6 @@
-# Power-Up-2018
-Code for 2018 season FIRST Power Up
+# Infinite Recharge 2020
+Code for 2020 season FIRST Infinite Recharge
 
 ## Dependancies 
 
-[SPARK MAX LabVIEW Library v1.1.0-9](http://www.revrobotics.com/content/sw/max/labview/rev-spark-max_1.1.0-9_windows_x64.nipkg)
-
-[Pheonix 4.15](https://github.com/CrossTheRoadElec/Phoenix-Releases/releases/download/aPhoenix-v5.13.0.0/CTRE_Phoenix_Framework_v5.13.0.0.zip)
+[SPARK MAX LabVIEW Library v1.5.2-0](http://www.revrobotics.com/content/sw/max/labview/rev-spark-max_1.5.2-0_windows_all.nipkg)
