@@ -132,7 +132,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">10.30.5.2</Property>
+		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,76F2;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -701,11 +701,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_MotorControlOpen TalonFX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen TalonFX.vi"/>
 				<Item Name="WPI_MotorControlOpen FusionVenom.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen FusionVenom.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
-				<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
-				<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_ErrorHandle.vi"/>
-				<Item Name="DriverLib.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Controls/DriverLib.ctl"/>
 				<Item Name="Rotation2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Rotation2d.ctl"/>
 				<Item Name="Translation2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Translation2d.ctl"/>
 				<Item Name="Pose2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Pose2d.ctl"/>
@@ -731,6 +726,15 @@ AddOutputFilter chunkFilter
 			<Item Name="Limelight HatchPanel.vi" Type="VI" URL="../Auton/SubVI/Limelight HatchPanel.vi"/>
 			<Item Name="Create Logger.vi" Type="VI" URL="../Asynchronous TDMS Logger/API/Create Logger.vi"/>
 			<Item Name="PIDF.vi" Type="VI" URL="../Support Code/PIDF.vi"/>
+			<Item Name="Wheel Of Doom Controller.vi" Type="VI" URL="../Wheel Of Doom/Implementation/Wheel Of Doom Controller.vi"/>
+			<Item Name="Wheel Of Doom Setpoints.ctl" Type="VI" URL="../Wheel Of Doom/Implementation/Wheel Of Doom Setpoints.ctl"/>
+			<Item Name="Wheel Of Doom Operations.ctl" Type="VI" URL="../Wheel Of Doom/Implementation/Wheel Of Doom Operations.ctl"/>
+			<Item Name="Wheel Of Doom Controller Interactive Check.vi" Type="VI" URL="../Wheel Of Doom/Implementation/Infrastructure/Wheel Of Doom Controller Interactive Check.vi"/>
+			<Item Name="Read Wheel Of Doom Operation.vi" Type="VI" URL="../Wheel Of Doom/Commands/Read Wheel Of Doom Operation.vi"/>
+			<Item Name="Wheel Of Doom Command Helper.vi" Type="VI" URL="../Wheel Of Doom/Implementation/Infrastructure/Wheel Of Doom Command Helper.vi"/>
+			<Item Name="Wheel Of Doom Published Globals.vi" Type="VI" URL="../Wheel Of Doom/Implementation/Wheel Of Doom Published Globals.vi"/>
+			<Item Name="Wheel Of Doom Controller Initialization.vi" Type="VI" URL="../Wheel Of Doom/Implementation/Infrastructure/Wheel Of Doom Controller Initialization.vi"/>
+			<Item Name="Wheel Of Doom Check for New Command.vi" Type="VI" URL="../Wheel Of Doom/Implementation/Infrastructure/Wheel Of Doom Check for New Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -749,7 +753,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2136F65-FD06-4AC9-A317-10E44B9EF7A4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">42</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
