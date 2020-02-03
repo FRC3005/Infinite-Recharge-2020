@@ -246,7 +246,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsystem Sequencer" Type="Folder" URL="../Subsystem Sequencer">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="ADIS16470" Type="Folder"/>
 		<Item Name="Turret" Type="Folder" URL="../Turret">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -663,7 +662,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_MotorControlOpen VictorSPX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen VictorSPX.vi"/>
 				<Item Name="WPI_MotorControlOpen TalonFX.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen TalonFX.vi"/>
 				<Item Name="WPI_MotorControlOpen FusionVenom.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlOpen FusionVenom.vi"/>
-				<Item Name="WPI_MotorControlRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Registry Set.vi"/>
 				<Item Name="Rotation2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Rotation2d.ctl"/>
 				<Item Name="Translation2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Translation2d.ctl"/>
 				<Item Name="Pose2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Pose2d.ctl"/>
@@ -678,6 +676,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DutyCycleWriteConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DutyCycle/FPGA_DutyCycleWriteConfiguration.vi"/>
 				<Item Name="FPGA_ERRInvalidDutyCycleChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DutyCycle/FPGA_ERRInvalidDutyCycleChannel.vi"/>
 				<Item Name="WPI_DutyCycleRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DutyCycle/WPI_DutyCycleRefNum Registry Set.vi"/>
+				<Item Name="WPI_MotorControlRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Registry Set.vi"/>
 				<Item Name="WPI_DutyCycle_GetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DutyCycle/WPI_DutyCycle_GetOutput.vi"/>
 				<Item Name="FPGA_DutyCycleReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DutyCycle/FPGA_DutyCycleReadOutput.vi"/>
 			</Item>
@@ -692,10 +691,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Path Distance Formula.vi" Type="VI" URL="../AutonBuilder/SubVI/Path Distance Formula.vi"/>
 			<Item Name="Data Point.ctl" Type="VI" URL="../AutonBuilder/Typedef/Data Point.ctl"/>
 			<Item Name="New Path Template.vit" Type="VI" URL="../AutonBuilder/SubVI/New Path Template.vit"/>
-			<Item Name="PIDF.vi" Type="VI" URL="../Support Code/PIDF.vi"/>
 			<Item Name="ADIS16470 Data.ctl" Type="VI" URL="../ADIS16470/Typedef/ADIS16470 Data.ctl"/>
-			<Item Name="ADIS16470 Loop Custom.vi" Type="VI" URL="../ADIS16470/SubVI/ADIS16470 Loop Custom.vi"/>
-			<Item Name="TDMS Logger.lvclass" Type="LVClass" URL="../Asynchronous TDMS Logger/TDMS Logger.lvclass"/>
+			<Item Name="PIDF.vi" Type="VI" URL="../Support Code/PIDF.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
