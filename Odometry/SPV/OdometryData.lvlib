@@ -8,14 +8,20 @@
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="numTypedefs" Type="UInt">4</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Odometry.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Pose2d.ctl</Property>
+		<Property Name="typedefName3" Type="Str">Rotation2d.ctl</Property>
+		<Property Name="typedefName4" Type="Str">Translation2d.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Typedef/Odometry.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$(QQ!!!"E!A!!!!!!(!!&gt;!#A!"?!!(1!I!!8E!#U!+!!6U;'6U91!41!I!$%RF:H1A27ZD&lt;W2F=A!!%U!+!!V3;7&gt;I&gt;#"&amp;&lt;G.P:'6S!"6!!A!04'&amp;U:3"*&gt;'6S982J&lt;WZT!$5!]1!!!!!!!!!"$%^E&lt;WVF&gt;(*Z,G.U&lt;!!A1&amp;!!"A!!!!%!!A!$!!1!"1B0:'^N:82S?1!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Pose2d.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Rotation2d.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Translation2d.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;241%!!"E!A!!!!!!+!".!#A!-4'6G&gt;#"&amp;&lt;G.P:'6S!!!41!I!$6*J:WBU)%6O9W^E:8)!&amp;5!#!!^-982F)%FU:8*B&gt;'FP&lt;H-!"U!+!!&amp;Y!!&gt;!#A!"?1!W!0%!!!!!!!!!!2&amp;5=G&amp;O=WRB&gt;'FP&lt;D*E,G.U&lt;!!=1&amp;!!!A!$!!1.6(*B&lt;H.M982J&lt;WYS:!!,1!I!"62I:82B!#]!]1!!!!!!!!!"$F*P&gt;'&amp;U;7^O-G1O9X2M!"B!5!!"!!9+5G^U982J&lt;WYS:!!!+1$R!!!!!!!!!!%+5'^T:4*E,G.U&lt;!!71&amp;!!!A!&amp;!!='5'^T:4*E!!!R!0%!!!!!!!!!!1R0:'^N:82S?3ZD&gt;'Q!(%"1!!1!!!!"!!)!#!B0:'^N:82S?1!!!1!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Velocity" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
