@@ -689,7 +689,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Lerp.vim" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Trajectory/Lerp.vim"/>
 				<Item Name="Interpolate Trajectory States.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Trajectory/Interpolate Trajectory States.vi"/>
 				<Item Name="Sample Trajectory.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Trajectory/Sample Trajectory.vi"/>
-				<Item Name="PID with Diff Drive FF.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Controller/PID with Diff Drive FF.vi"/>
 				<Item Name="Closed Loop Voltage Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/Typedef/Closed Loop Voltage Mode.ctl"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
