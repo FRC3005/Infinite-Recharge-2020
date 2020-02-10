@@ -131,10 +131,13 @@
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Tag-dbl.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl.lvlib"/>
-			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Write.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Read.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Write With Abort.vi"/>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Read With Abort.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Instantiate.vi"/>
+			<Item Name="EndpointRead.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/EndpointRead.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Endpoint.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -671,11 +674,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Spark MAX Motor Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/Typedef/Spark MAX Motor Type.ctl"/>
 				<Item Name="Spark MAX Set Motor Type.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Set Motor Type.vi"/>
 				<Item Name="Spark MAX Set Current Limit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Set Current Limit.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
-				<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
-				<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_ErrorHandle.vi"/>
-				<Item Name="DriverLib.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Controls/DriverLib.ctl"/>
 				<Item Name="Relative Pose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Pose2d/Relative Pose.vi"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="Rigid Transform to Pose2d.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Rigid Transform/Rigid Transform to Pose2d.vi"/>
@@ -690,6 +688,76 @@ AddOutputFilter chunkFilter
 				<Item Name="Interpolate Trajectory States.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Trajectory/Interpolate Trajectory States.vi"/>
 				<Item Name="Sample Trajectory.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Trajectory/Sample Trajectory.vi"/>
 				<Item Name="Closed Loop Voltage Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/Typedef/Closed Loop Voltage Mode.ctl"/>
+				<Item Name="WPI_SPIMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIMode.ctl"/>
+				<Item Name="WPI_SPIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIDevRef.ctl"/>
+				<Item Name="WPI_DigitalOutputRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputRefNum Registry Get.vi"/>
+				<Item Name="WPI_SPIClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIClose.vi"/>
+				<Item Name="WPI_SPIBusCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCacheOp.ctl"/>
+				<Item Name="spilib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_close.vi"/>
+				<Item Name="WPI_SPIBusCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCache.vi"/>
+				<Item Name="WPI_SPI_ERRInvalidSPI_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRInvalidSPI_Index.vi"/>
+				<Item Name="WPI_SPI_ERRSPIAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRSPIAlreadyAllocated.vi"/>
+				<Item Name="WPI_DigitalOutputSetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputSetValue.vi"/>
+				<Item Name="WPI_DigitalOutputToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputToDigitalModule.vi"/>
+				<Item Name="WPI_DigitalModuleSetDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleSetDIO.vi"/>
+				<Item Name="FPGA_DIOReadDO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDO.vi"/>
+				<Item Name="FPGA_DIOWriteDO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteDO.vi"/>
+				<Item Name="High Resolution Polling Wait.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Polling Wait.vi"/>
+				<Item Name="WPI_DigitalOutputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputRefNum Registry Set.vi"/>
+				<Item Name="WPI_SPIOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIOpen.vi"/>
+				<Item Name="spilib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_open.vi"/>
+				<Item Name="GetSystemError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/GetSystemError.vi"/>
+				<Item Name="FPGA_SPIWriteChipSelectActiveHigh.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChipSelectActiveHigh.vi"/>
+				<Item Name="spilib_setspeed.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setspeed.vi"/>
+				<Item Name="spilib_setopts.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setopts.vi"/>
+				<Item Name="WPI_SPIWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIWrite.vi"/>
+				<Item Name="spilib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_writeread.vi"/>
+				<Item Name="WPI_SPIRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRead.vi"/>
+				<Item Name="spilib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_read.vi"/>
+				<Item Name="WPI_SPIRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRefNum Registry Set.vi"/>
+				<Item Name="FPGA_SPI_ConfigureAuto.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPI_ConfigureAuto.vi"/>
+				<Item Name="FPGA_SPI_StartAuto_External.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPI_StartAuto_External.vi"/>
+				<Item Name="FPGA_SPI_ReadAuto.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPI_ReadAuto.vi"/>
+				<Item Name="WPI_SPIRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRefNum Registry Get.vi"/>
+				<Item Name="FPGA_DMAWriteConfigOperation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAWriteConfigOperation.ctl"/>
+				<Item Name="FPGA_DMAEnable.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAEnable.ctl"/>
+				<Item Name="FPGA_DMADevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMADevRef.ctl"/>
+				<Item Name="FPGA_DMAWriteConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAWriteConfig.vi"/>
+				<Item Name="FPGA_DMAWriteRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAWriteRate.vi"/>
+				<Item Name="FPGA_DMAOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAOpen.vi"/>
+				<Item Name="WPI_ErrDMAAlreadyInUse.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_ErrDMAAlreadyInUse.vi"/>
+				<Item Name="WPI_DMAChannelTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAChannelTypeEnum.ctl"/>
+				<Item Name="WPI_DMAChannelsGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAChannelsGlobal.vi"/>
+				<Item Name="WPI_DMARef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMARef.ctl"/>
+				<Item Name="WPI_DMAOpenExternal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAOpenExternal.vi"/>
+				<Item Name="WPI_DMAOpenInternal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAOpenInternal.vi"/>
+				<Item Name="WPI_DMAOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAOpen.vi"/>
+				<Item Name="WPI_ErrDMAAlreadyStarted.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_ErrDMAAlreadyStarted.vi"/>
+				<Item Name="WPI_DMAAddChannelToStream_Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAddChannelToStream_Timestamp.vi"/>
+				<Item Name="WPI_DMAGyroType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAGyroType.ctl"/>
+				<Item Name="WPI_DMAAddChannelToStream_Gyro.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAddChannelToStream_Gyro.vi"/>
+				<Item Name="WPI_DMAEncoderOutputType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAEncoderOutputType.ctl"/>
+				<Item Name="WPI_DMAAddChannelToStream_Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAddChannelToStream_Encoder.vi"/>
+				<Item Name="WPI_DMAAddChannelToStream_Counter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAddChannelToStream_Counter.vi"/>
+				<Item Name="FPGA_AnalogTriggerStaticOutType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerStaticOutType.ctl"/>
+				<Item Name="WPI_DMAAddChannelToStream_AnalogTrigger.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAddChannelToStream_AnalogTrigger.vi"/>
+				<Item Name="WPI_AnalogChannelDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelDevRef.ctl"/>
+				<Item Name="WPI_DMAAnalogInputType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAnalogInputType.ctl"/>
+				<Item Name="WPI_DMAAddChannelToStream_AnalogInput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAddChannelToStream_AnalogInput.vi"/>
+				<Item Name="WPI_DMADigitalInputType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMADigitalInputType.ctl"/>
+				<Item Name="WPI_DMAAddChannelToStream_DigitalInput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAddChannelToStream_DigitalInput.vi"/>
+				<Item Name="WPI_DMAAddChannelToStream.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAAddChannelToStream.vi"/>
+				<Item Name="FPGA_DMAStopTransfer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAStopTransfer.vi"/>
+				<Item Name="FPGA_DMAStartTransfer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAStartTransfer.vi"/>
+				<Item Name="FPGA_DMAConfigureHostBuffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAConfigureHostBuffer.vi"/>
+				<Item Name="WPI_DMAWordsPerEnableConstant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAWordsPerEnableConstant.vi"/>
+				<Item Name="WPI_DMAEnableGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAEnableGlobal.vi"/>
+				<Item Name="WPI_DMAStreamOffsetsGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAStreamOffsetsGlobal.vi"/>
+				<Item Name="WPI_DMAStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAStart.vi"/>
+				<Item Name="WPI_DMARepackSample.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMARepackSample.vi"/>
+				<Item Name="FPGA_DMAReadFromStream.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAReadFromStream.vi"/>
+				<Item Name="WPI_ErrDMANotStarted.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_ErrDMANotStarted.vi"/>
+				<Item Name="WPI_DMARead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMARead.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -702,7 +770,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Path Distance Formula.vi" Type="VI" URL="../AutonBuilder/SubVI/Path Distance Formula.vi"/>
 			<Item Name="Data Point.ctl" Type="VI" URL="../AutonBuilder/Typedef/Data Point.ctl"/>
 			<Item Name="New Path Template.vit" Type="VI" URL="../AutonBuilder/SubVI/New Path Template.vit"/>
-			<Item Name="ADIS16470 Data.ctl" Type="VI" URL="../ADIS16470/Typedef/ADIS16470 Data.ctl"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
