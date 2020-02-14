@@ -126,15 +126,18 @@
 				<Item Name="Rotation2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Rotation2d.ctl"/>
 				<Item Name="Translation2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Translation2d.ctl"/>
 				<Item Name="Pose2d.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Typedef/Pose2d.ctl"/>
-				<Item Name="Trajectory State.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Trajectory/Typedef/Trajectory State.ctl"/>
 				<Item Name="Generate Differential Drive Trajectory.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Trajectory/Generate Differential Drive Trajectory.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="Trajectory State.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Trajectory/Typedef/Trajectory State.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Tag-dbl.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl.lvlib"/>
-			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Write.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Read.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Write With Abort.vi"/>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Read With Abort.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Instantiate.vi"/>
+			<Item Name="EndpointRead.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/EndpointRead.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-dbl/Endpoint.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -247,6 +250,9 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Shooter" Type="Folder" URL="../Shooter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Wrist" Type="Folder" URL="../Wrist">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -671,6 +677,15 @@ AddOutputFilter chunkFilter
 				<Item Name="Spark MAX Motor Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/Typedef/Spark MAX Motor Type.ctl"/>
 				<Item Name="Spark MAX Set Motor Type.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Set Motor Type.vi"/>
 				<Item Name="Spark MAX Set Current Limit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Set Current Limit.vi"/>
+				<Item Name="FPGA_ERRInvalidDutyCycleChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DutyCycle/FPGA_ERRInvalidDutyCycleChannel.vi"/>
+				<Item Name="FPGA_DutyCycleIndex.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DutyCycle/FPGA_DutyCycleIndex.ctl"/>
+				<Item Name="FPGA_DutyCycleDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DutyCycle/FPGA_DutyCycleDevRef.ctl"/>
+				<Item Name="FPGA_DutyCycleReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DutyCycle/FPGA_DutyCycleReadOutput.vi"/>
+				<Item Name="WPI_DutyCycle_GetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DutyCycle/WPI_DutyCycle_GetOutput.vi"/>
+				<Item Name="WPI_DutyCycle_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DutyCycle/WPI_DutyCycle_Open.vi"/>
+				<Item Name="WPI_DutyCycle_Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DutyCycle/WPI_DutyCycle_Cache.vi"/>
+				<Item Name="WPI_AnalogTriggerErrList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogTrigger/WPI_AnalogTriggerErrList.vi"/>
+				<Item Name="FPGA_DutyCycleWriteConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DutyCycle/FPGA_DutyCycleWriteConfiguration.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -684,6 +699,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Data Point.ctl" Type="VI" URL="../AutonBuilder/Typedef/Data Point.ctl"/>
 			<Item Name="New Path Template.vit" Type="VI" URL="../AutonBuilder/SubVI/New Path Template.vit"/>
 			<Item Name="ADIS16470 Data.ctl" Type="VI" URL="../ADIS16470/Typedef/ADIS16470 Data.ctl"/>
+			<Item Name="Beak Published Globals.vi" Type="VI" URL="../Beak/Implementation/Beak Published Globals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
