@@ -684,6 +684,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Data Point.ctl" Type="VI" URL="../AutonBuilder/Typedef/Data Point.ctl"/>
 			<Item Name="New Path Template.vit" Type="VI" URL="../AutonBuilder/SubVI/New Path Template.vit"/>
 			<Item Name="ADIS16470 Data.ctl" Type="VI" URL="../ADIS16470/Typedef/ADIS16470 Data.ctl"/>
+			<Item Name="Joystick Sensitivity.vi" Type="VI" URL="../../../../Downloads/Deep-Space-2019-master/Deep-Space-2019-master/Support Code/Joystick Sensitivity.vi"/>
+			<Item Name="CheesyDrive.vi" Type="VI" URL="../../../../Downloads/Deep-Space-2019-master/Deep-Space-2019-master/Support Code/CheesyDrive.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
