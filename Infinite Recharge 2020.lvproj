@@ -850,7 +850,16 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_LED_LoadString.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/LED/FPGA_LED_LoadString.vi"/>
 				<Item Name="WPI_LED_Write.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/LED/WPI_LED_Write.vi"/>
 				<Item Name="PIDF.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Controller/PIDF.vi"/>
+				<Item Name="WPI_ServoDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoDeviceRef.ctl"/>
+				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
+				<Item Name="WPI_ServoToPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoToPWM.vi"/>
+				<Item Name="WPI_ServoSetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetPosition.vi"/>
+				<Item Name="Spark MAX Set Ramp Rate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/SubVI/Public/Spark MAX Set Ramp Rate.vi"/>
 				<Item Name="Ramsete Controller.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Controller/Ramsete/Ramsete Controller.vi"/>
+				<Item Name="Relative Pose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Pose2d/Relative Pose.vi"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="Rigid Transform to Pose2d.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Rigid Transform/Rigid Transform to Pose2d.vi"/>
+				<Item Name="Pose2d to Rigid Transform.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Geometry/Rigid Transform/Pose2d to Rigid Transform.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
