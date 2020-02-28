@@ -35,6 +35,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Velocity Data.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Typedef/Velocity Data.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"_?A!!!"E!A!!!!!!$!"F!#1!35GFH;(1A6G6M&lt;W.J&gt;(EA5G&amp;X!!!81!E!%5RF:H1A6G6M&lt;W.J&gt;(EA5G&amp;X!$)!]1!!!!!!!!!"%6:F&lt;'^D;82Z)%2B&gt;'%O9X2M!"B!5!!#!!!!!1B7:7RP9WFU?1!!!1!#!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[NA!!!"E!A!!!!!!&amp;!"F!#1!35GFH;(1A6G6M&lt;W.J&gt;(EA5G&amp;X!!!81!E!%5RF:H1A6G6M&lt;W.J&gt;(EA5G&amp;X!".!#A!.4'6G&gt;#"4:82Q&lt;WFO&gt;!!61!I!$F*J:WBU)&amp;.F&gt;("P;7ZU!!!W!0%!!!!!!!!!!2&amp;7:7RP9WFU?3"%982B,G.U&lt;!!=1&amp;!!"!!!!!%!!A!$#&amp;:F&lt;'^D;82Z!!!"!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
