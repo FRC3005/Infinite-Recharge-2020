@@ -896,6 +896,16 @@ AddOutputFilter chunkFilter
 				<Item Name="PID Set Gains.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Controller/PID/PID Set Gains.vi"/>
 				<Item Name="PID Get Profiled Setpoint.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/WPILib Extensions/Controller/PID/PID Get Profiled Setpoint.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="WPI_EncoderGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderGet.vi"/>
+				<Item Name="FPGA_EncoderReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadOutput.vi"/>
+				<Item Name="FPGA_EncoderReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadTimerOutput.vi"/>
+				<Item Name="WPI_DigitalInputClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputClose.vi"/>
+				<Item Name="WPI_DisableFilter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_DisableFilter.vi"/>
+				<Item Name="WPI_DMAClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMAClose.vi"/>
+				<Item Name="WPI_DMARepackSample.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMARepackSample.vi"/>
+				<Item Name="FPGA_DMAReadFromStream.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DMA/FPGA_DMAReadFromStream.vi"/>
+				<Item Name="WPI_ErrDMANotStarted.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_ErrDMANotStarted.vi"/>
+				<Item Name="WPI_DMARead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DMA/WPI_DMARead.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -933,7 +943,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2136F65-FD06-4AC9-A317-10E44B9EF7A4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">68</Property>
+				<Property Name="Bld_version.build" Type="Int">76</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -943,7 +953,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{92CCF2BF-8901-43A2-9A03-5BBC70036CBF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D311B17C-9CFD-4725-A4F6-BE5B712EAD70}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
